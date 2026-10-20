@@ -3,7 +3,7 @@
 
 **Contexte :**
 
-Dans le cadre de mon alternance au sein de l’entreprise **Veolia**, j’ai reçu un ticket provenant d’une utilisatrice qui rencontrait un problème avec le site Internet sur lequel elle travaillait. Les fichiers PDF intégrés directement dans le site ne s’affichaient plus correctement.
+Dans le cadre de mon alternance au sein d'une entreprise , j’ai reçu un ticket provenant d’une utilisatrice qui rencontrait un problème avec le site Internet sur lequel elle travaillait. Les fichiers PDF intégrés directement dans le site ne s’affichaient plus correctement.
 
 J’ai donc été chargé de prendre en charge ce ticket afin d’identifier l’origine du problème et de rétablir l’affichage des documents PDF.
 
