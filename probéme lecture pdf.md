@@ -1,63 +1,92 @@
 
 # Résolution d’un problème d’affichage des PDF dans Google Chrome
 
-**Contexte :**
+## 1. Contexte
 
-Dans le cadre de mon alternance au sein d'une entreprise , j’ai reçu un ticket provenant d’une utilisatrice qui rencontrait un problème avec le site Internet sur lequel elle travaillait. Les fichiers PDF intégrés directement dans le site ne s’affichaient plus correctement.
+Dans le cadre de mon alternance au sein d’une entreprise, j’ai pris en charge un ticket d’assistance informatique concernant une utilisatrice qui rencontrait un problème d’affichage des fichiers PDF intégrés à un site Internet professionnel.
 
-J’ai donc été chargé de prendre en charge ce ticket afin d’identifier l’origine du problème et de rétablir l’affichage des documents PDF.
+L’intervention s’est déroulée sur plusieurs jours. Ma mission consistait à identifier l’origine du dysfonctionnement, à effectuer les tests nécessaires et à rétablir le fonctionnement normal du site.
 
-**Problématique :**
+## 2. Problématique
 
-L’utilisatrice ne parvenait plus à afficher les fichiers PDF directement intégrés dans le site Internet qu’elle utilisait. Cependant, une de ses collègues travaillant sur le même site ne rencontrait pas ce problème. Cette information laissait penser que le dysfonctionnement ne provenait pas directement du site Internet, mais pouvait être lié à la configuration de son ordinateur ou de son navigateur.
+L’utilisatrice ne parvenait plus à afficher directement les fichiers PDF intégrés au site Internet qu’elle utilisait. Cependant, une de ses collègues travaillant sur le même site ne rencontrait pas ce problème.
 
-Il était donc nécessaire d’effectuer plusieurs tests afin d’identifier l’origine du problème et de trouver une solution durable.
+Cette différence de fonctionnement m’a amené à envisager plusieurs hypothèses : un problème lié au navigateur, à la configuration de l’ordinateur ou à un paramètre associé au compte de l’utilisatrice.
 
-**Démarche :**
+L’objectif était donc d’identifier la cause du dysfonctionnement afin de proposer une solution durable.
 
-Dans un premier temps, j’ai contacté l’utilisatrice par téléphone afin d’obtenir davantage d’informations sur le problème rencontré. Avec son accord, j’ai également mis en place un partage d’écran afin de visualiser le dysfonctionnement et de réaliser les premiers diagnostics à distance.
+## 3. Démarche de résolution
 
-Lors de cet échange, elle m’a précisé que sa collègue, qui utilisait le même site Internet, ne rencontrait aucune difficulté pour afficher les fichiers PDF. Cette information m’a permis d’envisager un problème lié à la configuration de son ordinateur ou de son navigateur plutôt qu’un dysfonctionnement général du site.
+### Étape 1 : Recueil des informations et premiers tests
 
-J’ai ensuite effectué plusieurs manipulations de base afin de tenter de résoudre le problème. J’ai commencé par vérifier si son Chromebook disposait des dernières mises à jour. Le système étant à jour, j’ai poursuivi le diagnostic en redémarrant l’ordinateur. Cependant, le problème persistait.
+Dans un premier temps, j’ai contacté l’utilisatrice par téléphone afin de recueillir des informations sur le problème rencontré. J’ai ensuite utilisé Google Meet pour partager l’écran, observer le dysfonctionnement et réaliser les premières vérifications à distance.
 
-J’ai alors essayé d’accéder au site en navigation privée afin de vérifier si le dysfonctionnement pouvait être lié aux données de navigation ou aux paramètres habituels du navigateur. Cette manipulation n’a pas permis de résoudre le problème. J’ai également procédé à une réinitialisation du Chromebook, mais les fichiers PDF ne s’affichaient toujours pas correctement.
+J’ai appris que sa collègue pouvait afficher les PDF normalement sur le même site. J’ai donc orienté mes recherches vers l’environnement informatique de l’utilisatrice plutôt que vers un dysfonctionnement général du site.
 
-À ce stade, j’ai supposé que le problème provenait directement de l’ordinateur. Afin de vérifier cette hypothèse, j’ai demandé l’autorisation à l’utilisatrice d’utiliser ses identifiants pour me connecter à son compte depuis mon propre Chromebook. Le site fonctionnait correctement et les PDF s’affichaient normalement. J’en ai donc déduit que le problème était probablement lié à son équipement. J’ai alors organisé le remplacement de son Chromebook.
+J’ai commencé par vérifier si son Chromebook disposait des dernières mises à jour. Le système d’exploitation ChromeOS était en version 154. J’ai ensuite redémarré l’ordinateur, puis testé le site en navigation privée afin de vérifier si le problème pouvait provenir des données de navigation ou des paramètres habituels du navigateur.
 
-Cependant, après avoir reçu son nouvel ordinateur, l’utilisatrice m’a recontacté pour m’informer que le problème persistait. Ce nouvel élément m’a permis de remettre en question mon premier diagnostic. Puisque le dysfonctionnement était toujours présent sur un autre ordinateur, j’ai compris qu’il pouvait provenir d’un paramètre associé à son compte Google Chrome et synchronisé sur ses différents appareils.
+Ces manipulations n’ayant pas permis de résoudre le problème, j’ai également procédé à une réinitialisation du Chromebook. Malgré ces tentatives, les fichiers PDF ne s’affichaient toujours pas correctement.
 
-J’ai donc poursuivi mes recherches dans les paramètres du navigateur afin d’identifier une éventuelle configuration empêchant l’affichage des PDF.
+### Étape 2 : Vérification de l’hypothèse matérielle
 
-J’ai finalement trouvé le paramètre responsable du problème en suivant le chemin suivant :
+À ce stade, j’ai d’abord retenu l’hypothèse d’un problème lié à l’ordinateur. Pour vérifier cette piste, j’ai testé le fonctionnement du site sur mon propre Chromebook ASUS CM14 en utilisant le même compte que celui de l’utilisatrice. Les PDF s’affichaient normalement.
+
+J’ai alors supposé que le problème provenait de son équipement et un remplacement de son Chromebook a été organisé.
+
+Cependant, après réception du nouvel ordinateur, l’utilisatrice m’a recontacté pour m’informer que le dysfonctionnement persistait.
+
+J’ai donc remis en question mon premier diagnostic. Le problème se reproduisant sur un autre appareil, l’hypothèse matérielle ne permettait plus d’expliquer la situation. J’ai réorienté mes recherches vers les paramètres du navigateur et les éventuels réglages associés au compte de l’utilisatrice.
+
+### Étape 3 : Identification de la cause
+
+J’ai poursuivi les vérifications dans les paramètres de Google Chrome afin d’identifier une configuration pouvant empêcher l’affichage direct des fichiers PDF.
+
+Pour cela, j’ai suivi les étapes suivantes :
 
 1. Ouvrir les paramètres de Google Chrome.
-2. Saisir « PDF » dans la barre de recherche des paramètres.
-3. Accéder aux **Paramètres des sites**.
-4. Descendre jusqu’à la rubrique **Paramètres de contenu supplémentaires**.
-5. Cliquer sur **Documents PDF**.
+2. Rechercher le terme « PDF » dans la barre de recherche des paramètres.
+3. Accéder à la rubrique des paramètres des sites.
+4. Ouvrir les paramètres de contenu supplémentaires.
+5. Sélectionner la rubrique « Documents PDF ».
 
-J’ai alors constaté que l’option sélectionnée était configurée pour **télécharger les fichiers PDF au lieu de les ouvrir directement dans Chrome**. Ce paramètre expliquait pourquoi les documents ne s’affichaient pas directement dans le site Internet.
+J’ai constaté que l’option sélectionnée était configurée pour télécharger les fichiers PDF au lieu de les ouvrir directement dans Google Chrome.
 
-J’ai donc modifié ce réglage afin que les fichiers PDF puissent s’ouvrir directement dans Google Chrome, puis j’ai demandé à l’utilisatrice de vérifier le fonctionnement du site.
+Ce réglage expliquait le comportement observé. J’ai donc modifié le paramètre afin de permettre l’ouverture directe des documents PDF dans le navigateur.
 
-**Outils mobilisés :**
+J’ai ensuite demandé à l’utilisatrice de vérifier le fonctionnement du site. Elle m’a confirmé que les PDF s’affichaient de nouveau correctement.
 
-- Chromebook de l’utilisatrice pour réaliser les premières vérifications.
-- Mon propre Chromebook pour comparer le fonctionnement du site.
-- Google Chrome et ses paramètres de configuration.
-- Partage d’écran pour observer le problème à distance.
-- Téléphone pour communiquer avec l’utilisatrice.
-- Site Internet professionnel sur lequel les documents PDF devaient s’afficher.
+## 4. Outils mobilisés
 
-**Précautions prises :**
+- **Chromebook de l’utilisatrice :** réalisation des premières vérifications et des tests de fonctionnement.
+- **ASUS Chromebook CM14 :** comparaison du fonctionnement du site sur un autre appareil.
+- **ChromeOS version 154 :** système d’exploitation utilisé lors des vérifications.
+- **Google Chrome :** navigation privée et vérification des paramètres d’affichage des PDF.
+- **Google Meet :** communication à distance et partage d’écran pour observer le dysfonctionnement.
+- **Téléphone :** prise de contact avec l’utilisatrice et suivi de l’intervention.
+- **Site Internet professionnel :** vérification de l’affichage des documents PDF intégrés.
 
-J’ai commencé par effectuer les vérifications de base avant d’envisager le remplacement du Chromebook. J’ai également obtenu l’accord de l’utilisatrice avant d’utiliser ses identifiants pour réaliser des tests sur mon propre ordinateur.
+## 5. Précautions prises
 
-**Résultats :**
+J’ai commencé par effectuer les vérifications de base avant d’envisager le remplacement du matériel. Cette démarche permet de procéder méthodiquement et de limiter les interventions inutiles.
 
-Après avoir modifié le paramètre des documents PDF dans Google Chrome, l’affichage des fichiers PDF intégrés au site a de nouveau fonctionné correctement. Le problème a ainsi été résolu sans nécessiter de nouveau remplacement de matériel.
+Lors de l’assistance à distance, j’ai obtenu l’accord de l’utilisatrice pour observer le dysfonctionnement et réaliser les vérifications nécessaires.
 
-**Bilan personnel :**
+Concernant la sécurité des comptes, la bonne pratique consiste à éviter d’utiliser les identifiants personnels d’un utilisateur. Il est préférable de reproduire le problème avec un compte de test ou de demander à l’utilisateur de réaliser lui-même les manipulations pendant le partage d’écran.
 
-Cette intervention m’a permis d’améliorer mes compétences en diagnostic informatique et en assistance à distance. J’ai compris l’importance de procéder par élimination et de remettre en question mon premier diagnostic afin de trouver une solution adaptée au problème réel.
+## 6. Résultats
+
+Après la modification du paramètre relatif aux documents PDF, l’utilisatrice m’a confirmé que les fichiers s’ouvraient de nouveau correctement dans Google Chrome.
+
+L’incident a ainsi été résolu par une modification de la configuration du navigateur, sans nécessiter de nouveau remplacement matériel.
+
+Cette intervention a permis d’identifier un problème de configuration plutôt qu’une défaillance matérielle.
+
+## 7. Bilan personnel
+
+Cette intervention m’a permis de développer mes compétences en diagnostic informatique et en assistance à distance.
+
+J’ai appris à procéder par élimination, à comparer le fonctionnement d’un service sur plusieurs appareils et à remettre en question une première hypothèse lorsque les résultats obtenus ne correspondent pas aux attentes.
+
+Le remplacement du Chromebook n’ayant pas résolu le problème, j’ai compris l’importance de ne pas conclure trop rapidement à une panne matérielle et de poursuivre les recherches vers les paramètres logiciels et les configurations du navigateur.
+
+Enfin, cette situation m’a sensibilisé à l’importance de la sécurité des comptes utilisateurs et au respect des bonnes pratiques lors des interventions à distance.
